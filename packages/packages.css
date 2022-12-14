@@ -1,3 +1,16 @@
+@font-face {
+	font-family: 'AnonymousPro';
+	src:url('anonymousPro-Regular.ttf') format('truetype'); 
+	
+	/* url('anonymousPro-Regular.woff2') format('woff2'),
+	url('anonymousPro-Regular.woff') format('woff'), */
+			 
+}
+@font-face {
+	font-family: 'AnonymousPro';
+	src: url('anonymousPro-Bold.ttf') format('truetype');
+	font-weight: 700;
+}
 main {
 	padding-top: 2rem;
 }
@@ -54,6 +67,12 @@ main {
 	font-size: 1.2rem;
 	color: #0e4f1f;
 	background: white;
+	/* font-family: "Roboto",sans-serif; */
+	/* font-family: 'AnonymousPro', sans-serif; */
+	/* font-weight: 700; */
+	/* font-weight: 900;
+	font-style: italic; */
+	/* font-style font-variant font-weight font-size/line-height font-family */
 }
 
 .clearfix {
@@ -91,8 +110,8 @@ main {
 @media (min-width: 40rem) {
 	main {
 		max-width: 1500px;
-        margin-left: auto;
-        margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media (min-width: 1500px) {
